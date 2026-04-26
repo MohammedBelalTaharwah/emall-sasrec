@@ -1,0 +1,13 @@
+# E-Mall CODEOWNERS
+# These owners will be requested for review on PRs touching these paths.
+
+# AI-specific tables — require review from both teams
+db/migrations/*interaction*    @ai-team @backend-team
+db/migrations/*recommendation* @ai-team @backend-team
+db/migrations/*model*          @ai-team
+
+# AI service code
+api/                           @ai-team
+
+# Integration documentation
+docs/ai-integration.md         @ai-team @backend-team

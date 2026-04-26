@@ -1,0 +1,45 @@
+# ── Data Files (too large for GitHub) ──────────────────────
+interactions.csv
+users.csv
+products.csv
+product_mappings.csv
+categories.csv
+data_summary.txt
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# ── Model Checkpoints (large binary files) ────────────────
+api/checkpoints/*.pth
+*.pth
+
+# ── Jupyter Notebooks (optional — keep .ipynb but not checkpoints) ──
+.ipynb_checkpoints/
+
+# ── Generated Figures ─────────────────────────────────────
+figures/
+figures-*.zip
+
+# ── OS Files ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── PDF exports (generated, not source) ──────────────────
+*.pdf
